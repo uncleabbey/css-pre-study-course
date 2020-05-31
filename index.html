@@ -12,17 +12,28 @@
         <h1 class="title">Sanni's Journal</h1>
         <h2 class="undertext">So fresh and so clean</h2>
     </header>
+    <button class="add-note-btn">Add a new note</button>
+    <p id="note-count">You have <span class="count"></span> notes</p>
+    <div class="add-form">
+        <form id="form">
+            <h4>Write your notes</h4>
+            <input type="text" placeholder="Title" id="form-title">
+            <textarea id="form-body" placeholder="Body"></textarea>
+            <button type="button" class="cancel">Cancel</button>
+            <button type="submit" id='add-note'>Add Note</button>
+        </form>
+    </div>
     <main class="main">
         <article>
             <h2>13/05/23: Spatulas</h2>
-            <p class="image1"><img src="images/spatula.gif" alt="spatulas"></p>
+            <p class="image1"><img src="https://res.cloudinary.com/kayode/image/upload/v1590651708/spatula_qx5agb.gif" alt="spatulas"></p>
             <p>
                 Yesterday I went to the store and got some much-needed <a href="https://www.youtube.com/watch?v=2XbCWmY0eqY">spatulas!</a> (What better way to say I love myself than to buy myself a spatula?)
             </p>
         </article>
         <article>
             <h2>14/05/23: Cookie Monster Cupcakes</h2>
-            <p class="image2"><img src="images/cookiemonster.jpg" alt="cookie monster"></p>
+            <p class="image2"><img src="https://res.cloudinary.com/kayode/image/upload/v1590651708/cookiemonster_zjhxdf.jpg" alt="cookie monster"></p>
             <p>My favorite cartoon character is Cookie Monster, and my favorite dessert is cupcakes, so Cookie Monster cupcakes are the best of both worlds.
             </p>
 
@@ -42,6 +53,7 @@
     <p>&copy; 2023 Sanni. No Rights Reserved.</p>
     </footer>
 
+<script src="main.js"></script>
 </body>
 
 </html>
